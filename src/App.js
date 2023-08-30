@@ -85,7 +85,6 @@ function App() {
             />
           )}
           {isLoading && <Loading />}
-          <Loading />
           {dogImages.length > 0 &&
             !isLoading &&
             dogImages.map((imgSrc, index) => (
